@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MINI Cooper Eléctrico</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+    }
+    .navbar-brand img {
+      height: 40px;
+    }
+    .nav-link:hover {
+        color: #f1c40f;
+        
+    }
+    .car-card {
+      border: none;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease-in-out;
+    }
+    .car-card:hover {
+      transform: scale(1.02);
+    }
+    .car-card img {
+      width: 100%;
+      height: auto;
+    }
+    .car-card-body {
+      padding: 15px;
+    }
+    .car-card-body .btn {
+      background-color: #f1c40f;
+      color: #000;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    .car-card-body .btn:hover {
+      background-color: #d4ac0d;
+    }
+    /* .btn { */
+        /* background-color: #d4ac0d; */
+    /* } */
+    .btn-outline-success  {
+        color: #f1c40f;
+        /* background-color: #d4ac0d; */
+        border-color: #d4ac0d;
+    }
+    .btn-outline-success:hover  {
+        color: #fff;
+        background-color: #d4ac0d;
+        border-color: #000;
+    }
+    .btn-outline-secondary  {
+        color:#d4ac0d;
+        
+        background-color: #fff;
+        border-color: white;
+    }
+    .btn-outline-secondary:hover  {
+        color: #fff;
+        background-color: #111;
+        border-color: #000;
+    }
+    footer {
+      background-color: #111;
+      color: #fff;
+      padding: 20px 0;
+    }
+    footer a {
+      color: #f1c40f;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    footer a:hover {
+      color: #fff;
+    }
+    .imgback{
+        background-image:url("img/20230216061623_P90493725_highRes_mini_cooper_se_conve.jpg");
+        max-width: 100%;
+        
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header/Nav -->;
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#"><img src="img/Mini Cooper Black.png" alt="MINI Logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-start" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#">Modelos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Eléctrico</a></li>
+        <!-- <li class="nav-item"><a class="nav-link" href="#">Login</a></li> -->
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Login
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="#">Garaje</a></li>
+              <li><a class="dropdown-item" href="#">Notificaciones</a></li>
+             
+            </ul>
+          </li>
+      </ul>
+      <form class="d-flex justify-content-end">
+        <input class="form-control me-2" type="search" placeholder="Busque aqui" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- Main Content -->
+<section class="py-5 text-center container">
+    <div class="row py-lg-5 imgback ">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">FUN MEETS  FUNCTIONAL.</h1>
+        <p class="lead text-muted"><strong>MINI Operating System 9</strong>  is a software powerhouse optimized for touch and voice control featuring cloud-based navigation and effortless connectivity. Plus, an available copilot is at the ready for direction tips and tricks - just say “Hey Spike” to welcome our first fully-fledged voice assistant into the cockpit.</p>
+        <p>
+          <a href="#" class="btn btn-outline-success my-2">Construye tu Auto</a>
+          <a href="#" class="btn btn-outline-secondary my-2">Habla con un dealer</a>
+        </p>
+      </div>
+    </div>
+  </section>
+<div class="container py-5">
+    
+  <h1 class="text-center mb-5">Modelos MINI Cooper Eléctricos</h1>
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    
+    <!-- MINI Cooper SE -->
+    <div class="col">
+      <div class="card car-card">
+        <img src="img/cuper.jpg" alt="MINI Cooper SE">
+        <div class="car-card-body">
+          <h5>MINI Cooper SE</h5>
+          <p>Compacto, ágil y 100% eléctrico. Autonomía de 240 km y 184 hp.</p>
+          <a href="#" class="btn btn-block">Más información</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- MINI Countryman SE ALL4 -->
+    <div class="col">
+      <div class="card car-card">
+        <img src="img/countryman.jpg" alt="MINI Countryman SE">
+        <div class="car-card-body">
+          <h5>MINI Countryman SE ALL4</h5>
+          <p>SUV híbrido enchufable con tracción total. Versátil y potente.</p>
+          <a href="#" class="btn btn-block">Más información</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- MINI Aceman Concept -->
+    <div class="col">
+      <div class="card car-card">
+        <img src="img/aceman.jpg" alt="MINI Aceman">
+        <div class="car-card-body">
+          <h5>MINI Aceman (Concepto)</h5>
+          <p>Diseño futurista y tecnología avanzada. El futuro eléctrico de MINI.</p>
+          <a href="#" class="btn btn-block">Más información</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="text-center">
+  <div class="container">
+    <p class="mb-2">&copy; 2025 MINI Cooper. Todos los derechos reservados.</p>
+    <div>
+      <a href="https://www.facebook.com/MINI/" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
+      <a href="https://www.instagram.com/mini/" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
+      <a href="https://www.tiktok.com/@mini" target="_blank"><i class="fab fa-tiktok fa-lg"></i></a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
